@@ -50,10 +50,13 @@ package:
 {{end}}
 # Looping over provider specific packages for an OS
 {{range $name, $vers := index .Vars .Vars.OS .Vars.PROVIDER "package"}}
+  {{/* Skip linux-cloud-tools-virtual on ARM64 as this package is not available for ARM64 */}}
+  {{if not (and (eq $name "linux-cloud-tools-virtual") (eq $.Vars.arch "arm64"))}}
   {{$name}}:
     installed: true
   {{range $key, $val := $vers}}
     {{$key}}: {{$val}}
+  {{end}}
   {{end}}
 {{end}}
 
