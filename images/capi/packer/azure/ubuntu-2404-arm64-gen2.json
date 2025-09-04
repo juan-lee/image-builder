@@ -24,5 +24,6 @@
   "runc_url": "https://github.com/opencontainers/runc/releases/download/v1.2.3/runc.arm64",
   "runc_sha256": "4ef19ab21ce1ae5a01e1d3fa5b005e45cdf59f5d3ab32541c9e262cb2b2d3451",
   "containerd_wasm_shims_url": "https://github.com/deislabs/containerd-wasm-shims/releases/download/v0.11.1/containerd-wasm-shims-<RTVERSION>-<SHIM>-linux-aarch64.tar.gz",
+  "containerd_wasm_shims_sha256": "{\"lunatic\":\"8644aba14535f90c4d77ce9c3943f251195c23e9489f8626884834de0e9542e5\",\"slight\":\"0232ee4e011ecceda00c88a0d4f0be249c61ec2fcae39fb6f083724b97d640e2\",\"spin\":\"29d6363fdc864cf59ff164005acb7c3d39ff24761443fd5494948433b0d5f7c5\",\"wws\":\"8ffb2e015dd72029c0c4482ff5ce9eceeecba2e4c4e2e97bc09daffef564b51c\"}",
   "vm_size": "Standard_D2ps_v6"
 }
