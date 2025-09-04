@@ -106,12 +106,21 @@ common_virt_debs:
   - linux-tools-virtual
   - open-vm-tools
 
+# ARM64-specific package list - excludes packages not available for ARM64
+common_virt_debs_arm64:
+  - linux-tools-virtual
+  - open-vm-tools
+
 common_virt_photon_rpms:
   - open-vm-tools
 
 common_raw_rpms: []
 common_raw_debs:
   - linux-cloud-tools-generic
+  - linux-tools-generic
+
+# ARM64-specific raw package list - excludes packages not available for ARM64
+common_raw_debs_arm64:
   - linux-tools-generic
 
 common_raw_photon_rpms: []

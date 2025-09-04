@@ -42,7 +42,7 @@ dependencies:
     vars:
       rpms: >-
         {{ ( common_rpms + rh8_rpms + lookup('vars', 'common_' + build_target + '_rpms') ) }}
-      debs: "{{ common_debs +  lookup('vars', 'common_' + build_target + '_debs') }}"
+      debs: "{{ common_debs +  lookup('vars', 'common_' + build_target + '_debs' + ('_arm64' if ansible_architecture == 'aarch64' else ''), default=lookup('vars', 'common_' + build_target + '_debs')) }}"
     when: >
       ansible_distribution not in ["VMware Photon OS", "Amazon"]
         and not (packer_builder_type == "oracle-oci" and ansible_architecture == "aarch64")

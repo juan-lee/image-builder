@@ -22,7 +22,7 @@
   "containerd_url": "https://github.com/containerd/containerd/releases/download/v1.7.25/containerd-1.7.25-linux-arm64.tar.gz",
   "containerd_sha256": "https://github.com/containerd/containerd/releases/download/v1.7.25/containerd-1.7.25-linux-arm64.tar.gz.sha256sum",
   "runc_url": "https://github.com/opencontainers/runc/releases/download/v1.2.3/runc.arm64",
-  "runc_sha256": "70a8a0a49e6c9b66b3b04fd4c3edd41b9b9f5be831a8de61af22df8d39e2cd08",
+  "runc_sha256": "4ef19ab21ce1ae5a01e1d3fa5b005e45cdf59f5d3ab32541c9e262cb2b2d3451",
   "containerd_wasm_shims_url": "https://github.com/deislabs/containerd-wasm-shims/releases/download/v0.11.1/containerd-wasm-shims-<RTVERSION>-<SHIM>-linux-aarch64.tar.gz",
   "vm_size": "Standard_D2ps_v6"
 }
