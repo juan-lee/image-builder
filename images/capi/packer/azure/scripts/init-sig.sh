@@ -186,6 +186,9 @@ case ${SIG_TARGET} in
   ubuntu-2404-gen2)
     create_image_definition ${SIG_TARGET} "24_04-lts-gen2" "V2" "Linux"
   ;;
+  ubuntu-2404-arm64-gen2)
+    create_image_definition ${SIG_TARGET} "24_04-lts-arm64-gen2" "V2" "Linux"
+  ;;
   ubuntu-2404-cvm)
     create_image_definition ${SIG_TARGET} "24_04-lts-cvm" "V2" "Linux" ${SECURITY_TYPE_CVM_SUPPORTED_FEATURE}
   ;;

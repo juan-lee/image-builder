@@ -1,0 +1,21 @@
+{
+  "arch": "arm64",
+  "build_name": "ubuntu-2404-arm64-gen2",
+  "crictl_arch": "arm64",
+  "distribution": "ubuntu",
+  "distribution_release": "noble",
+  "distribution_version": "2404",
+  "goss_arch": "arm64",
+  "image_name": "capi-ubuntu-2404-arm64-gen2",
+  "image_offer": "ubuntu-24_04-lts",
+  "image_publisher": "Canonical",
+  "image_sku": "minimal-arm64",
+  "kubernetes_cni_http_checksum_arch": "arm64",
+  "kubernetes_goarch": "arm64",
+  "source_sig_image_name": "",
+  "source_sig_image_version": "",
+  "source_sig_name": "",
+  "source_sig_resource_group_name": "",
+  "source_sig_subscription_id": "",
+  "vm_size": "Standard_D2ps_v6"
+}
